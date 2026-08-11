@@ -13,7 +13,16 @@ export default function Home() {
         </p>
         <div className="h-px w-32 bg-gold/30 mx-auto mb-8" />
         <p className="text-sm tracking-widest text-wedding-green opacity-60">
-          GUESTS: PLEASE USE YOUR UNIQUE INVITITATION LINK
+          Contact us to create your unique wedding invitation and RSVP platform, tailored to your love story.
+          <br />
+          <a
+            href="https://wa.me/message/GMIXBL3OYSTPD1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold underline"
+          >
+            +94 75 759 6445
+          </a>
         </p>
       </div>
     </main>
