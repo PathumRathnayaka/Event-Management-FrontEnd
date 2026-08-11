@@ -2,7 +2,7 @@ import { Heart } from 'lucide-react';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-cream p-6 text-center">
+    <main className="relative flex min-h-screen flex-col items-center justify-center bg-cream p-6 text-center">
       <div className="max-w-md">
         <Heart className="mx-auto mb-6 h-12 w-12 text-gold animate-pulse" />
         <h1 className="script-font mb-4 text-5xl text-gold">
@@ -25,6 +25,18 @@ export default function Home() {
           </a>
         </p>
       </div>
+      <p className="absolute bottom-6 text-xs tracking-wide text-wedding-green opacity-50">
+        &copy; {new Date().getFullYear()}{' '}
+        <a
+          href="https://www.qaldrin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          www.qaldrin.com
+        </a>{' '}
+        All rights reserved.
+      </p>
     </main>
   );
 }
