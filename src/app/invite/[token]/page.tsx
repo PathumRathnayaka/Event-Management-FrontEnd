@@ -134,11 +134,19 @@ export default function InvitationPage() {
                     onRSVP={(response) => submitRSVP(token as string, response).then(() => { })}
                 />
 
-                <footer className="bg-ivory pt-6 pb-20 text-center">
+                <footer className="bg-ivory pt-6 pb-48 text-center">
                     <p className="script-font text-2xl text-gold mb-2">Thank You</p>
                     <p className="text-[10px] tracking-[0.4em] text-wedding-green uppercase opacity-40">
                         For Being Part of Our Story
                     </p>
+                    <a
+                        href="https://www.invitevibes.online"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-gold/30 px-3 py-1 mt-3 text-[10px] font-bold tracking-[0.3em] text-wedding-green uppercase hover:bg-gold/40 transition-colors"
+                    >
+                        www.invitevibes.online
+                    </a>
                 </footer>
 
                 <MusicPlayer url={data.musicUrl} autoPlay={isOpened} />
